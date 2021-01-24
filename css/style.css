@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form fieldset {
+    padding: 0 40px;
+    border: 0;
+    background-color: aqua;
+}
+
+form legend{
+    font-size: 17px;
+    color: rgb(130, 130, 130);
+}
