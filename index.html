@@ -1,16 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/de42b4f6fa.js" crossorigin="anonymous"></script>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
-    <title>Aula Formulário</title>
 </head>
 <body>
-    <form>
-        <fieldset>
-            <legend>Meu Formulário</legend>
-        </fieldset>
-    </form>
+    <!-- HEADER-->
+    <header>
+        <div class="center">
+            <i id="logo" class="fab fa-cc-amazon-pay"></i>
+        </div>
+    </header><!-- HEADER-->
+
+    <!-- Background e Formulário -->
+    <div class="container-banner">
+        <div class="center">
+
+            <div class="container-list">
+                <ul>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                </ul>
+            </div>
+
+            <div class="form">
+                <h2>Preencha o formulário e inicie a sua caminhada para virar um WebMaster!</h2>
+                <form>
+
+                    <div class="input-container">
+                        <span>Nome*</span>
+                        <input type="text" name="nome" required>
+                    </div><!-- Input nome  -->
+
+                    <div class="input-container">
+                        <span>E-mail*</span>
+                        <input type="text" name="email" required>
+                    </div><!-- Input E-mail  -->
+
+                    <div class="input-container">
+                        <span>Telefone*</span>
+                        <input type="text" name="telefone" required>
+                    </div><!-- Input Telefone  -->
+
+                    <p class="warning">* Campos obrigatórios</p>
+
+                    <div class="submit-container">
+                        <input type="submit" name="acao" value="Enviar">
+                    </div>
+
+                </form><!--formulário-->
+            </div><!--DIV Formulário-->
+        </div><!-- Center -->
+    </div><!--Background-->
+
+    <div class="container-2">
+        <div class="center">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ex ratione ea nostrum similique assumenda error! Nemo sit, non repellat, quaerat veniam quod voluptates dolorum iste eligendi modi ad explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam ex quibusdam earum, molestiae excepturi ad dignissimos adipisci laborum ipsum qui ducimus id cum impedit fugit quia odit possimus praesentium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus accusantium odio incidunt repudiandae quas illum commodi non aspernatur fuga! Provident, harum! Facilis labore odit unde tenetur ad exercitationem minima consequuntur.</p>
+
+            <div class="arrow">
+                <i id="flecha" class="fas fa-arrow-circle-down"></i>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
