@@ -14,7 +14,12 @@ html,body{
     margin: 0 auto;
 }
 
+.clear{
+    clear: both;
+}
+
 header{
+    min-width: 1200px;
     width: 100%;
     height: 60px;
     background-color: #212343;
@@ -28,6 +33,7 @@ header{
 }
 
 .container-banner{
+    min-width: 1200px;
     width: 100%;
     height: 557px;
     background-image: url('../images/banner.jpg');
@@ -131,6 +137,7 @@ header{
 }
 
 .container-2 {
+    min-width: 1200px;
     padding: 40px 0px;
     background-color: #DDDDDD;
     text-align: center;
@@ -156,4 +163,45 @@ header{
 
 #flecha{
     font-size: 40px;
+}
+
+#computer-image{
+    margin-bottom: 15px;
+    font-size: 80px;
+    color: black;
+
+}
+
+.section-1 {
+    min-width: 1200px;
+    padding: 30px 0;
+}
+
+.section-1 h2{
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+}
+
+.container-section-1{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-single{
+    float: left;
+    width: 33.3%;
+}
+
+.container-single p {
+    padding: 10px 30px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+footer{
+    border-top: 4px solid #888888;
+    padding: 10px 0px;
+    text-align: center;
+    color: #888888;
 }
