@@ -11,6 +11,7 @@ html,body{
 
 .center{
     max-width: 1280px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -19,21 +20,18 @@ html,body{
 }
 
 header{
-    min-width: 100%;
     width: 100%;
+    padding: 0 2%;
     height: 60px;
     background-color: #212343;
 }
 
-#logo{
-    text-align: left;
-    padding: 10px 30px;
-    font-size:30px;
-    color: white;
+header > img {
+    font-size: 20px;
 }
 
 .container-banner{
-    min-width: 100%;
+    padding: 0 2%;
     width: 100%;
     height: 557px;
     background-image: url('../images/banner.jpg');
@@ -42,6 +40,7 @@ header{
 }
 
 .container-banner > .center{
+    width: 100%;
     height: 100%;
 }
 
@@ -137,7 +136,7 @@ header{
 }
 
 .container-2 {
-    min-width: 100%;
+    width: 100%;
     padding: 40px 0px;
     background-color: #DDDDDD;
     text-align: center;
@@ -173,7 +172,6 @@ header{
 }
 
 .section-1 {
-    min-width: 100%;
     padding: 30px 0;
 }
 
