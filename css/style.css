@@ -26,8 +26,10 @@ header{
     background-color: #212343;
 }
 
-header > img {
-    font-size: 20px;
+.logo{
+    margin: 10px 50px;
+    height: 40px;
+    width: 40px;
 }
 
 .container-banner{
